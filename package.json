@@ -13,7 +13,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "rm ./alexa-skill-crypto-market.zip ; zip -r ../alexa-skill-crypto-market . ; mv ../alexa-skill-crypto-market.zip . "
+    "package": "rm ./alexa-skill-crypto-market.zip ; zip -r ../alexa-skill-crypto-market . ; mv ../alexa-skill-crypto-market.zip . ",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
